@@ -1,0 +1,19 @@
+                   MNLogit Regression Results                   
+Dep. Variable:  ,choice          ,  No. Observations:  ,  9449  
+Model:          ,MNLogit         ,  Df Residuals:      ,  9441  
+Method:         ,MLE             ,  Df Model:          ,     6  
+Date:           ,Tue, 24 Mar 2020,  Pseudo R-squ.:     ,0.2376  
+Time:           ,16:54:29        ,  Log-Likelihood:    , -7857.7
+converged:      ,True            ,  LL-Null:           , -10307.
+Covariance Type:,nonrobust       ,  LLR p-value:       , 0.000  
+ choice=1,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+frequency,    0.7368,    0.018,   41.159, 0.000,    0.702,    0.772
+intercept,   -1.5622,    0.130,  -12.012, 0.000,   -1.817,   -1.307
+income   ,   -0.5399,    0.101,   -5.367, 0.000,   -0.737,   -0.343
+sex      ,   -0.2566,    0.064,   -4.031, 0.000,   -0.381,   -0.132
+-------------------------------------------------------------------
+ choice=2,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
+frequency,    0.7883,    0.018,   43.903, 0.000,    0.753,    0.823
+intercept,   -3.1955,    0.122,  -26.216, 0.000,   -3.434,   -2.957
+income   ,    0.7715,    0.084,    9.224, 0.000,    0.608,    0.935
+sex      ,   -0.1316,    0.063,   -2.074, 0.038,   -0.256,   -0.007
