@@ -151,11 +151,39 @@ for i in range(len(select_feature)):
     with open('../../res/res1_%s.txt' % (i+1),'w') as f:
         f.write(s.as_text())
 #%%
+inter_select = ['frequency',
+ 'intercept',
+ 'income*risk_dec',
+ 'income*frequency',
+ 'attention*risk_dec',
+ 'attention*frequency',
+ 'retire*risk_dec',
+ 'retire*frequency',
+ 'work*risk_dec',
+ 'work*frequency',
+ 'edu',
+ 'edu*frequency',
+ 'age*risk_dec',
+ 'age*frequency',
+ 'sex*pain',
+ 'chronic*risk_dec',
+ 'region',
+ 'chronic*frequency',
+ 'region*frequency',
+ 'hospital*risk_dec',
+ 'chronic*pain',
+ 'region*risk_dec',
+ 'check*frequency',
+ 'check*risk_dec',
+ 'check*pain']
 for i in range(len(inter_select)):
-    mlogit_mod = sm.MNLogit(interact_df['choice'], interact_df[select_feature[:i+1]])
+    mlogit_mod = sm.MNLogit(interact_df['choice'], interact_df[inter_select[:i+1]])
     mlogit_res = mlogit_mod.fit()
     s = mlogit_res.summary()
     with open('../../res/res2_%s.csv' % (i+1),'w') as f:
         f.write(s.as_csv())
     with open('../../res/res2_%s.txt' % (i+1),'w') as f:
         f.write(s.as_text())
+#%%
+x = 'frequency >> intercept >> income*risk_dec >> income*frequency >> attention*risk\_dec >> attention*frequency >> retire*risk_dec >> retire*frequency >> work*risk\_dec >> work*frequency >> edu >> edu*frequency >> age*risk\_dec >> age*frequency >> sex*pain >> chronic*risk\_dec >> region >> chronic*frequency >> region*frequency >> hospital*risk\_dec >> chronic*pain >> region*risk\_dec >> check*frequency >> check*risk\_dec >> check*pain'        
+x.split(' >> ')

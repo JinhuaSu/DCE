@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{相关研究}{}% 1
+\BOOKMARK [1][-]{section.2}{数据}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{数据处理}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{数据描述}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{模型}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{多元logit模型}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.1}{模型公式}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.2}{前进法选择变量}{subsection.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.2}{带交互项的多元logit模型}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.1}{模型公式}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.2}{前进法选择变量}{subsection.3.2}% 11
+\BOOKMARK [1][-]{section.4}{结论}{}% 12
+\BOOKMARK [1][-]{section.5}{模型一拟合结果解读}{}% 13
+\BOOKMARK [1][-]{section.6}{模型二拟合结果解读}{}% 14

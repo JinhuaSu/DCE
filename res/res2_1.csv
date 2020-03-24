@@ -3,7 +3,7 @@ Dep. Variable:  ,choice          ,  No. Observations:  ,  9449
 Model:          ,MNLogit         ,  Df Residuals:      ,  9447  
 Method:         ,MLE             ,  Df Model:          ,     0  
 Date:           ,Tue, 24 Mar 2020,  Pseudo R-squ.:     ,0.05746 
-Time:           ,16:54:29        ,  Log-Likelihood:    , -9714.4
+Time:           ,18:43:15        ,  Log-Likelihood:    , -9714.4
 converged:      ,True            ,  LL-Null:           , -10307.
 Covariance Type:,nonrobust       ,  LLR p-value:       ,   nan  
  choice=1,   coef   , std err ,    z    ,P>|z| ,  [0.025 ,  0.975] 
